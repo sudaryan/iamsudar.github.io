@@ -673,7 +673,7 @@ nav a:hover span {
 .sec6 h1 {
     font-size: 2rem;
     margin-left: 50px;
-    margin-top: 5%;
+    margin-top: 0;
     font-weight: 400;
 }
 .sec6 h1 i {
@@ -847,16 +847,19 @@ nav a:hover span {
 /* section 7 / about end */
 /* footer */
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.2rem;
     text-align: center;
     width: 80%;
-    height: 10vh;
+    height: 20vh;
     position: relative;
     left: 20%;
     overflow-x: hidden;
     box-sizing: border-box;
     font-family: Cantarell Light, Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 10vh;
+    /* transform: translateY(100%); */
 }
 /* footer end */
 /* Responsive */

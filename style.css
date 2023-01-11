@@ -869,7 +869,7 @@ footer {
         width: 80px;
         height: 70vh;
         right: 0px;
-        top: 10vh;
+        top: 5vh;
         background-color: rgb(195, 195, 195, 0.5);
         border-radius: 20px;
         z-index: 9;
@@ -900,7 +900,7 @@ footer {
     }
     .work {
         /* position: fixed; */
-        top: 75vh;
+        top: 80vh;
         /* bottom: 10vh; */
         transform: scale(0.6);
     }
@@ -928,6 +928,12 @@ footer {
 /* phone */
 @media (max-width:700px) {
     /* Header */
+    .work {
+        /* position: fixed; */
+        top: 75vh;
+        /* bottom: 10vh; */
+        /* transform: scale(0.6); */
+    }
     .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
         height: 90vh;
     }
@@ -940,7 +946,7 @@ footer {
         width: 60px;
         border-radius: 20px;
         height: 50vh;
-        top: 25vh;
+        top: 10vh;
     }
     header nav a {
         font-size: 1.5rem;
@@ -976,12 +982,12 @@ footer {
         box-shadow: 0px 20px 20px -20px rgba(255, 0, 0, .5);
     }
     .sec1 .content1 .text1 h2 {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 2;
 
     }
     .sec1 .content1 h4 {
-        font-size: 14px;
+        font-size: 12px;
         padding-top: 10px;
     }
     .icon1 {
@@ -1017,7 +1023,7 @@ footer {
     }
     .more {
         left: 0;
-        bottom: 5%;
+        bottom: 6%;
     }
     /* Section 2 */
     .sec2 {

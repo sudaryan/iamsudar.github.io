@@ -899,7 +899,9 @@ footer {
         row-gap: 5px;
     }
     .work {
-        top: 85vh;
+        /* position: fixed; */
+        top: 82.5vh;
+        /* bottom: 10vh; */
         transform: scale(0.6);
     }
     .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
@@ -926,6 +928,9 @@ footer {
 /* phone */
 @media (max-width:700px) {
     /* Header */
+    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
+        height: 90vh;
+    }
     header {
         width: 60px;
         border-radius: 20px;

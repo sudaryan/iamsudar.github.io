@@ -944,6 +944,7 @@ footer {
         width: 40px;
         border-radius: 15px;
         height: 340px;
+        top: 15vh;
     }
     header nav {
         flex: 1;
@@ -972,6 +973,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        overflow: hidden;
     }
     .sec1 i {
         font-size: 2rem;
@@ -986,6 +988,7 @@ footer {
     }
     .sec1 .content1 {
         /* left: 0; */
+        width: 90%;
         display: block;
         position: static;
     }
@@ -998,6 +1001,7 @@ footer {
     }
     .sec1 .content1 .text1 h2 {
         font-size: 16px;
+        height: 140px;
     }
     .sec1 .content1 h4 {
         font-size: 16px;
@@ -1036,6 +1040,7 @@ footer {
     .more {
         left: 20px;
         width: 35px;
+        bottom: 40px;
     }
     /* Section 2 */
     .sec2 {

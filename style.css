@@ -88,6 +88,7 @@ nav a:hover span {
     text-align: center;
     transition: .4s;
     border: 1px solid transparent;
+    text-decoration: none;
 }
 .social a:hover {
     transform: scale(1.4);
@@ -943,22 +944,38 @@ footer {
         justify-content: space-evenly;
     }
     header {
-        width: 60px;
-        border-radius: 20px;
-        height: 50vh;
-        top: 10vh;
+        width: 40px;
+        border-radius: 15px;
+        height: 340px;
+    }
+    header nav {
+        flex: 1;
+        justify-content: start;
     }
     header nav a {
-        font-size: 1.5rem;
-        margin-left: 15px;
+        font-size: 1.1rem;
+        text-decoration: none;
+        margin-top: 20px;
     }
     header .social {
-        row-gap: 1px;
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
     }
     header .social i {
-        font-size: 1.5rem;
+        display: flex;
+        align-self: center;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
     }
     /* Setion 1 */
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
     .sec1 i {
         font-size: 2rem;
     }
@@ -971,7 +988,6 @@ footer {
     .sec1 .content1 {
         /* left: 0; */
         display: block;
-        width:70%;
         position: static;
     }
     .sec1 .content1 .text1 {
@@ -982,13 +998,10 @@ footer {
         box-shadow: 0px 20px 20px -20px rgba(255, 0, 0, .5);
     }
     .sec1 .content1 .text1 h2 {
-        font-size: 12px;
-        line-height: 2;
-
+        font-size: 16px;
     }
     .sec1 .content1 h4 {
-        font-size: 12px;
-        padding-top: 10px;
+        font-size: 16px;
     }
     .icon1 {
         top: 15%;
@@ -1022,21 +1035,29 @@ footer {
         display: none;
     }
     .more {
-        left: 0;
-        bottom: 6%;
+        left: 20px;
+        width: 35px;
     }
     /* Section 2 */
     .sec2 {
+        height: auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 7fr 1fr;
+        grid-template-rows: 1fr 6.4fr;
     }
     .sec2 .content2 {
         margin-top: 5%;
         left: 10px;
     }
-    .sec2 .content2 .text p, h2 {
-        font-size: 1.1rem;
+    .sec2 .text1 p {
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+    }
+    .sec2 .text1 h2 {
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
     }
     .sec2 .message .chat {
         width: 90%;
@@ -1088,19 +1109,22 @@ footer {
     }
         /* Section 2 */
     .sec3 {
+        height: auto;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 3fr 0.8fr 2.3fr;
+        grid-template-rows: 1fr 3fr 1fr 3fr;
+        overflow-y: hidden;
     }
     .sec3 .content3 {
         left: 5px;
+        height: 75%;
     }
     .sec3 .analis {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         width: 100%;
         left: 0;
-        margin-top: 0;
+        margin-top: 10px;
         gap: 0;
     }
     .sec3 .analis:hover {
@@ -1108,7 +1132,8 @@ footer {
     } 
     .sec3 .content4 {
         left: 5px;
-        margin-top: 0;
+        margin-top: 25px;
+        height: 75%;
     }
     .sec3 .text1 p, h2 {
         font-size: 1rem;
@@ -1120,6 +1145,9 @@ footer {
         font-size: 1.3rem;
     }
     /* Section 4 */
+    .sec4 {
+        height: auto;
+    }
     .sec4 .content5 {
         position: static;
         justify-content: center;
@@ -1130,6 +1158,15 @@ footer {
     }
     .sec4 .container:nth-child(3) {
         display: inherit;
+    }
+    /* Section 5 */
+    .sec5 {
+        margin-top: 50px;
+        height: auto;
+        overflow: hidden;
+    }
+    .sec5 .content6 {
+        left: 10px;
     }
     .sec5 .container {
         grid-template-rows: 1fr 0.75fr 0.5fr;
@@ -1158,6 +1195,10 @@ footer {
         align-self: center;
     }
     /* Setion 6 / portofolio */
+    .sec6 {
+        height: auto;
+        overflow: hidden;
+    }
     .sec6 .porto {
         grid-template-columns: 1fr;
         margin: 0px auto;
@@ -1183,6 +1224,7 @@ footer {
     /* Section 7 / About */
     .sec7 {
         height: auto;
+        margin-top: 30px;
     }
     .sec7 .container .about h1 {
         font-size: 2rem;
@@ -1211,7 +1253,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 95vh;
+        align-items: center;
     }
     .sec1 .logo {
         flex-grow: 1;
@@ -1223,4 +1265,3 @@ footer {
         flex-grow: 4;
         position: static;
     }
-} */

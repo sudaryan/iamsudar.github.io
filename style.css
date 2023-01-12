@@ -931,12 +931,9 @@ footer {
     /* Header */
     .work {
         /* position: fixed; */
-        top: 75vh;
+        /* top: 75vh; */
         /* bottom: 10vh; */
         /* transform: scale(0.6); */
-    }
-    .sec1, .sec2, .sec3, .sec4, .sec5, .sec6, .sec7 {
-        height: 90vh;
     }
     .sec1 {
         display: flex;
@@ -984,6 +981,8 @@ footer {
         top: 10%;
         left: 30%;
         position: static;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
     }
     .sec1 .content1 {
         /* left: 0; */

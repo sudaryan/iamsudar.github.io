@@ -1040,7 +1040,7 @@ footer {
     .more {
         left: 20px;
         width: 35px;
-        bottom: 40px;
+        bottom: 50px;
     }
     /* Section 2 */
     .sec2 {
@@ -1056,6 +1056,7 @@ footer {
     .sec2 .text1 p {
         display: inline-block;
         font-size: 16px;
+        font-weight: 100;
         margin: 5px;
     }
     .sec2 .text1 h2 {

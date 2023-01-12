@@ -227,7 +227,6 @@ nav a:hover span {
     position: absolute;
     display: grid;
     justify-content: center;
-    /* align-items: center; */
     width: 100%;
 }
 
@@ -266,7 +265,6 @@ nav a:hover span {
     text-align: center;
     padding-top: 30px;
     font-size: 1.2rem;
-    font-weight: 100;
 }
 
 .content1 h4 span {
@@ -400,8 +398,13 @@ nav a:hover span {
     background-color: white;
 }
 
-.sec2 .text1 p,
-h2 {
+.sec2 .text1 p {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+.sec2 .text1 h2 {
     display: inline-block;
     font-size: 1.2rem;
     margin: 5px;
@@ -529,8 +532,13 @@ h2 {
     padding: 5px;
 }
 
-.sec3 .text1 p,
-h2 {
+.sec3 .text1 h2 {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+.sec3 .text1 p {
     display: inline-block;
     margin: 5px;
     font-size: 1.2rem;
@@ -614,10 +622,15 @@ h2 {
     padding: 5px;
 }
 
-.sec4 .text1 p,
-h2 {
+.sec4 .text1 h2 {
     margin: 5px;
     display: inline-block;
+    font-size: 1.2rem;
+}
+
+.sec3 .text1 p {
+    display: inline-block;
+    margin: 5px;
     font-size: 1.2rem;
 }
 
@@ -730,8 +743,13 @@ h2 {
     padding: 5px;
 }
 
-.sec5 .text1 p,
-h2 {
+.sec5 .text1 h2 {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+.sec5 .text1 p {
     display: inline-block;
     margin: 5px;
     font-size: 1.2rem;
@@ -1018,7 +1036,6 @@ footer {
     overflow-x: hidden;
     box-sizing: border-box;
     font-family: Cantarell Light, Calibri, 'Trebuchet MS', sans-serif;
-    /* transform: translateY(100%); */
 }
 
 /* footer end */
@@ -1168,7 +1185,6 @@ footer {
     }
 
     .sec1 .content1 {
-        /* left: 0; */
         width: 90%;
         display: block;
         position: static;
@@ -1183,12 +1199,12 @@ footer {
     }
 
     .sec1 .content1 .text1 h2 {
-        font-size: 16px;
+        font-size: 18px;
         height: 140px;
     }
 
     .sec1 .content1 h4 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .icon1 {
@@ -1233,7 +1249,7 @@ footer {
     .more {
         left: 20px;
         width: 35px;
-        bottom: 55px;
+        bottom: 60px;
     }
 
     /* Section 2 */
@@ -1247,6 +1263,14 @@ footer {
     .sec2 .content2 {
         margin-top: 5%;
         left: 10px;
+    }
+
+    .sec2 .text1 p {
+        font-size: 1rem;
+    }
+
+    .sec2 .text1 h2 {
+        font-size: 1rem;
     }
 
     .sec2 .message .chat {
@@ -1320,6 +1344,14 @@ footer {
         height: 75%;
     }
 
+    .sec3 .text1 p {
+        font-size: 1rem;
+    }
+
+    .sec3 .text1 h2 {
+        font-size: 1rem;
+    }
+
     .sec3 .analis {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -1363,6 +1395,16 @@ footer {
         margin: 10px auto;
     }
 
+    .sec4 .text1 p {
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    .sec4 .text1 h2 {
+        display: inline-block;
+        font-size: 1rem;
+    }
+
     .sec4 .container:nth-child(2) {
         display: none;
     }
@@ -1380,6 +1422,14 @@ footer {
 
     .sec5 .content6 {
         left: 10px;
+    }
+
+    .sec5 .text1 p {
+        font-size: 1rem;
+    }
+
+    .sec5 .text1 h2 {
+        font-size: 1rem;
     }
 
     .sec5 .container {

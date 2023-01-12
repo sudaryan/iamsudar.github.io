@@ -240,8 +240,6 @@ nav a:hover span {
     box-shadow: -20px -20px 0px 0px rgba(255, 0, 0, 1);
     min-width: 450px;
     height: 180px;
-    /* align-items: center; */
-    /* text-align: justify; */
 }
 
 .sec1 .text1 span {
@@ -253,7 +251,7 @@ nav a:hover span {
     display: inline-block;
     margin: 5px;
     font-size: 1.3rem;
-    font-weight: 200;
+    font-weight: 600;
 }
 
 .text1 p {
@@ -1252,9 +1250,14 @@ footer {
         left: 10px;
     }
 
-    .sec2 .text1 p,
-    h2 {
-        font-size: 14px;
+    .sec2 .text1 p {
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .sec2 .text1 h2 {
+        font-size: 16px;
+        font-weight: 200;
     }
 
     .sec2 .message .chat {

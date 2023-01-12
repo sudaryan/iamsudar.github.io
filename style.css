@@ -251,7 +251,6 @@ nav a:hover span {
     display: inline-block;
     margin: 5px;
     font-size: 1.3rem;
-    font-weight: 600;
 }
 
 .text1 p {
@@ -1252,12 +1251,10 @@ footer {
 
     .sec2 .text1 p {
         font-size: 16px;
-        font-weight: 200;
     }
 
     .sec2 .text1 h2 {
         font-size: 16px;
-        font-weight: 200;
     }
 
     .sec2 .message .chat {
